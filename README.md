@@ -13,7 +13,7 @@ if weight_initialization in ["hp-init", "hp-final", "hp-epoch"]:
 ```
 And that's it! you can add your own logic for when to save or load the weights, but what mentioned above is essentially everything you need to do to initialize your model weights from your hyperparameter tuning trials.
 
-The rest of this document describes what you need to do if you want to *replicate/reproduce* the results from our paper. The `PaperCSVs` folder contains the raw results from our experiments and you can use `plots.ipynb` to create the same plots and tables that you can see in our paper, but you can also run our scripts and re-do the hyperparameter tuning and model training experiments. Note that, due to the stochastic nature of training DNNs, and especially if you use version of frameworks other than what we have specified in `requirements.txt`, you'll most probably get slightly different results from what we got, but the trends and overall results should be the same.
+The rest of this document describes what you need to do if you want to *replicate/reproduce* the results from our paper. The `PaperCSVs` folder contains the raw results from our experiments and you can use `plots-ipynb.ipynb` to create the same plots and tables that you can see in our paper, but you can also run our scripts and re-do the hyperparameter tuning and model training experiments. Note that, due to the stochastic nature of training DNNs, and especially if you use version of frameworks other than what we have specified in `requirements.txt`, you'll most probably get slightly different results from what we got, but the trends and overall results should be the same.
 
 # Prerequisites
 
