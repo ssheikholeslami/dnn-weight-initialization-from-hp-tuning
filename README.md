@@ -37,3 +37,12 @@ For the experiments included in the paper, we have used one set of random seeds 
 
 - Tuning (master seed 3): `31190, 77678, 71333, 17094, 48490, 79157, 62135, 82014, 76133, 8588, 79377, 1725, 61503, 33994, 72192, 30714, 25132, 93998, 61638, 70906`
 - Training (master seed 17): `68417, 54285, 39770, 47923, 37961, 22896, 92424, 92303, 70803, 86688, 36474, 14439, 3530, 32624, 50354, 97831, 54993, 33080, 65746, 41606`
+
+## Run All Experiments
+
+Use `run_all.sh` to run all the experiments included in the paper.
+
+**Remember** that for each experiment, you need to first run the hyperparameter tuning script, and then set the "BASE_HP_PATH" variable in the script to run the corresponding training runs. If you're using Ray, the path would look similar to, e.g., `'~/ray_results/tune_hyperparameters_2024-04-18_19-20-06'`.
+
+Thanks for checking and using our code! If you have any questions or comments about the approach or the paper, or notice any issues, or would like to work on more experiments, feel free to reach out to me over GitHub Issues or `sinash *at* k t h *dot* s e`.
+
