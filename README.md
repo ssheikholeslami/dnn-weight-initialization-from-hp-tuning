@@ -1,5 +1,5 @@
 # Deep Neural Network Weight Initialization from Hyperparameter Tuning Trials
-Code and results from our paper, "Deep Neural Network Weight Initialization from Hyperparameter Tuning Trials", published at ICONIP 2024.
+Code and results from our paper, "Deep Neural Network Weight Initialization from Hyperparameter Tuning Trials", published at ICONIP 2024 (author version is available [here](https://github.com/ssheikholeslami/dnn-weight-initialization-from-hp-tuning/blob/main/2024-DNN-weight-initializaton-from-hp-tuning-trials-ICONIP-2024.pdf)). 
 
 # Read This First
 The implementation of our proposed approach is *very* simple (and that's what we like about it the most) - considering you have your own hyperparameter tuning and model training code, you just have to:
